@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/../apache-maven-3.9.9/untitled/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="untitled" />
+        <module name="GORIZONT_URUP" />
+        <module name="GORIZONT_BUREBAI" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="GORIZONT_BUREBAI" options="--add-modules javafx.controls,javafx.fxml,javafx.graphics,org.apache.poi.poi,org.apache.poi.ooxml,java.sql --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED" />
+      <module name="GORIZONT_URUP" options="--add-modules javafx.controls,javafx.fxml,javafx.graphics,org.apache.poi.poi,org.apache.poi.ooxml,java.sql --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>

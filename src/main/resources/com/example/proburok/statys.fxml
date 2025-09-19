@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="762.0" prefWidth="874.0" style="-fx-background-color: #aa9455;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proburok.statusCOD">
+    <children>
+        <AnchorPane layoutY="112.0" prefHeight="649.0" prefWidth="874.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Button fx:id="LoadData" layoutX="29.0" layoutY="561.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="168.0" style="-fx-background-color: #aa9455; -fx-background-radius: 20px;" text="Обновление базы" textFill="#f8f8f8">
+                    <font>
+                        <Font name="Verdana" size="14.0" />
+                    </font></Button>
+                <TableView fx:id="dataTable" layoutX="29.0" layoutY="35.0" prefHeight="505.0" prefWidth="805.0">
+                    <columns>
+                        <TableColumn fx:id="nomerCtolb" prefWidth="80.1" text="№" />
+                        <TableColumn fx:id="gorizontCtolb" prefWidth="88.0" text="ГОРИЗОНТ" />
+                        <TableColumn fx:id="privizkaCtolb" prefWidth="206.0" text="ПРИВЯЗКА" />
+                        <TableColumn fx:id="nameCtolb" prefWidth="252.0" text="НАЗВАНИЕ ГОРНОЙ ВЫРАБОТКИ" />
+                        <TableColumn fx:id="PRIMCtolb" prefWidth="177.0" text="СТАТУС РАБОТЫ" />
+                    </columns>
+                </TableView>
+                <ComboBox fx:id="filterComboBox" layoutX="237.0" layoutY="559.0" prefHeight="43.0" prefWidth="193.0" />
+                <ComboBox fx:id="filterComboBox1" layoutX="471.0" layoutY="559.0" prefHeight="43.0" prefWidth="193.0" />
+
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="112.0" fitWidth="225.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/IMG_4772.JPG" />
+            </image>
+        </ImageView>
+        <Label layoutX="410.0" layoutY="35.0" prefHeight="43.0" prefWidth="531.0" text="Список задач" textFill="WHITE">
+            <font>
+                <Font name="Verdana" size="31.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
