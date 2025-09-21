@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../mysql-9.1.0-winx64/mysql-9.1.0-winx64.iml" filepath="$PROJECT_DIR$/../../mysql-9.1.0-winx64/mysql-9.1.0-winx64.iml" />
+      <module fileurl="file://$USER_HOME$/mysql-9.1.0-winx64/mysql-9.1.0-winx64.iml" filepath="$USER_HOME$/mysql-9.1.0-winx64/mysql-9.1.0-winx64.iml" />
     </modules>
   </component>
 </project>
